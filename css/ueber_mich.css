@@ -1,0 +1,94 @@
+
+.content-UeberMich {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.description {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.kontakt-box{
+    background-color: #fefefe;
+    height:195px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 10px;
+    max-width: 1000px;
+}
+
+.description h1{
+    font-family: 'Roboto Slap', serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 30px;
+    background:linear-gradient(-45deg,#090909,#381E1E, #723939);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info-img img{
+    width: 170px;
+    height: 170px;
+    border-radius: 55%;
+    border: 3px solid #723939;
+    margin: 0 auto;
+    float: left;
+    margin: 12px;
+}
+
+.info-text{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    margin: 10px 10px 10px 100px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 20px;
+    height:auto;
+    max-width: 1000px;
+}
+.info-text p{
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 838px) {
+    .description h1{
+        font-size: 30px;
+    }
+
+    .info-text{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .description h1{
+        font-size: 20px;
+        width: auto;
+        height: auto;
+    }
+    .content-UeberMich {
+        height: 100vh;
+    }
+
+    .info-img img{
+        width: 85px;
+        height: 85px;
+        border-radius: 55%;
+        border: 3px solid #723939;
+        margin: 0 auto;
+        float: left;
+        margin: 12px;
+    }
+
+    .info-text{
+        height: auto;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfolio</title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+            <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        
+            <link rel="stylesheet" href="../css/normalize.css">
+            <link rel="stylesheet" href="../css/font-awesome.css">
+            <link rel="stylesheet" href="../css/style.css">
+
+            <link rel="stylesheet" href="../css/ueber_mich.css">
+        </head>
+    <body>
+        <!--Start Header-->
+     <div class="header">
+        <div class="navbar"> 
+            <ul>
+                <a  href="" class="logo"> <img src="../img/icon.png" alt="" ></a>
+                <li><a href="#">Über mich <i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+                <li><a href="game.html">Game <i class="fa fa-gamepad" aria-hidden="true"></i></a> </li>
+
+                <li class="dropdown"><a  href="../index.html" class="dropbtn">Portfolio <i class="fa fa-chevron-down" aria-hidden="true" class="myIcon"></i></a>
+                    <div class="drop-content">
+                        <a href="../index.html#thema1">Animation</a>
+                        <a href="../index.html#thema2">Games</a>
+                        <a href="../index.html#thema3">Information Architekture </a>
+                    </div>
+                </li>
+                </li>
+            </ul>  
+        </div>
+    </div>
+
+      <!--Start Content-->
+        <div class="description">
+            <div class="info-img">
+                <img src="../img/Stephane Dongmo.jpg" alt="foto" >
+            </div>
+           
+            <div class="kontakt-box">
+                <h1>Stephane Dongmo</h1>
+                <p><b>Kontakt</b></p>
+                <p>Email: sdongmo@stud.hs-bremen.de<br/> Telefon: 0421/16199703 <br/>
+                Mobile: 017632431308 </p>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="info-text">
+               <p>Moin ich bin Stephane Geprüfter Java-Programmierer und Student an der Hochschule Bremen.<br/>Ich bin im zweiten Semester des Studiengangs Internationaler Studiengang Medieninformatik B.Sc (ISMI BSc).<br/> Durch eine 15-monatige Weiterbildung in Java-Entwicklung habe ich erfolgreich mein Zertifikat als Geprüfter Java-Programmierer erworben. </p>
+                <p>In der Zwischenzeit habe ich weitere Sprachen wie HTML, CSS, PHP und JavaScript gelernt.<br/>Als Projekt für dieses zweite Semester, mussten wir ein Portfolio und ein Spiel mit dem Phaser Framework erstellen.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Start Footer-->
+    <div>
+        <div class="footer">
+            <div class="icon">
+                <i id="facebook" class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i id="twitter" class="fa fa-twitter" aria-hidden="true"></i>
+                <i id="insta" class="fa fa-instagram" aria-hidden="true"></i>
+                <i  id="xing" class="fa fa-xing" aria-hidden="true"></i>
+            </div>
+            <div class="date">
+                <p id="currentYear"></p>
+            </div>
+            <div class="text">
+                <p>Hochschule Bremen</p>
+            </div>
+        </div>
+</div>
+    
+    <script>
+        var date = new Date();
+        document.getElementById('currentYear').innerHTML = "HSB , &copy: Copyright "+date.getFullYear();
+        
+    </script>
+        
+    </body>
+    </html>
